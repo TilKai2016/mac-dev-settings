@@ -50,6 +50,8 @@ git config --global core.quotepath false
 
 git config --global credential.helper osxkeychain
 
+git config --global alias.hist "log --graph --pretty=format:'%Cred%h%Creset %s%C(yellow)%d%Creset %Cgreen(%cr)%Creset [%an]' --abbrev-commit --date=relative"
+
 /* 
  * See Git configuration 
  */
