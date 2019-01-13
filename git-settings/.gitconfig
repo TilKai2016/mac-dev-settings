@@ -1,0 +1,12 @@
+[core]
+    # To solve `git status` Chinese garbled.
+	quotepath = false
+	editor = vim
+
+[color]
+    ui = true
+
+[alias]
+    # Pretty log output
+	hist = log --graph --pretty=format:'%Cred%h%Creset %s%C(yellow)%d%Creset %Cgreen(%cr)%Creset [%an]' --abbrev-commit --date=relative
+
