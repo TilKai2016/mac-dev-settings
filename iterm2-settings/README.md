@@ -27,15 +27,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ## 配置配色
 
-下载`solarized`配色, 参考博客给出了一个solarized[下载链接](http://ethanschoonover.com/solarized), 但是已失效, 我从GitHub中获取到该配色方案.
+下载`solarized`配色, [GitHub配色方案地址](git clone https://github.com/altercation/solarized.git)
 
 若只是配置iterm2, 此处可以选择不clone整个git目录, 只选择`iterm2-colors-solarized`目录下的配色方案即可, 该git工程提供了多个配色内容, 如IntelliJ IDEA配色方案和vim配色方案等.
 
-```
-git clone https://github.com/altercation/solarized.git
-```
-
-本人将clone项目放置于专门配置mac环境的MacConfig目录下.
+本人将clone项目放置于专门配置mac环境的MacConfig目录下, 同时在本仓库做了文件备份.
 
 将配色方案导入iterm并启用的步骤如下:
 
